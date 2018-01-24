@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<form>
+		<p><h4>Do you prefer cats or dogs?</h4></p>
+		<label for="dog">Dogs: </label>
+		<input id="dog" type="radio" name="petChoice" value="DOGS">
+		<label for="cat">Cats: </label>
+		<input id="cat" type="radio" name="petChoice" value="CATS">
+		<p><h4>What is your favorite color?</h4></p>
+		<select name="color">
+			<option>Blue</option>
+			<option>Green</option>
+			<option>Violet</option>
+			<option>Yellow</option>
+		</select>
+		<p><h4>What is your current mood?</h4></p>
+		<select name="mood">
+			<option value="Happy">:)</option>
+			<option value="Emotionless">:|</option>
+			<option value="Sad">:(</option>
+		</select>
+		<p><h4>Tell me about yourself:</h4></p>
+		<textarea name="bio" rows=10 cols="50"></textarea>
+		<p><button>Go!</button></p>
+	</form>
+</body>
+</html>

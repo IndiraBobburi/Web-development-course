@@ -1,0 +1,16 @@
+h1 {
+	color: red;
+	/*border-color: pink;
+	border-width: 5px;
+	border-style: dashed;*/
+
+	border: 3px solid pink;
+}
+
+li {
+	color: blue;
+}
+
+body {
+	background: rgb(228, 239, 79);
+}
